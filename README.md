@@ -12,6 +12,8 @@ Para enviar una señal a un proceso se puede hacer uso de kill:
 | SIGTERM | Terminación solicitada | Sí                |    TERM    |
 | SIGKILL | Terminación forzada    | ❌ No             |    KILL   |
 | SIGSEGV | Violación de segmento  | Sí                |            |
+| STOP    | Detener un proceso     | Sí                |     STOP   |
+| CONT    | Continuar un proceso   | Sí                |     CONT   |
 
 ```c
 kill -TERM PID
