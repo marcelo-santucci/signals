@@ -2,7 +2,7 @@
 
 Programas de ejemplo de manejo de señales por parte de procesos.
 
-Las señales funciona de manera "asincrona".
+Las señales funciona de manera "asincrona", por lo que pueden interrumpir el código en cualquier momento.
 
 + noMemuero.c  es un programa que atrapa la señal enviada desde el teclaco con ctrl+c, evitando que lo cierren.
 
