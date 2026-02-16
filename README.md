@@ -19,4 +19,5 @@ Para enviar una señal a un proceso se puede hacer uso de kill:
 
 ```c
 kill -TERM PID
+kill -9 PID
 ```
